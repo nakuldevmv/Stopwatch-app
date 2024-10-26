@@ -18,11 +18,11 @@ com.example.stopwatch.app-jetified-annotation-experimental-1.4.0-16 C:\Users\nak
 com.example.stopwatch.app-lifecycle-livedata-2.7.0-17 C:\Users\nakul\.gradle\caches\transforms-3\c8104be4ee8049739ee8a5cef3e0da67\transformed\lifecycle-livedata-2.7.0\res
 com.example.stopwatch.app-jetified-savedstate-1.2.1-18 C:\Users\nakul\.gradle\caches\transforms-3\e31bf8eb61c587fe74f52284c4da4d09\transformed\jetified-savedstate-1.2.1\res
 com.example.stopwatch.app-jetified-lifecycle-process-2.7.0-19 C:\Users\nakul\.gradle\caches\transforms-3\f278e58515e8cfd3d9ddee03ef955ede\transformed\jetified-lifecycle-process-2.7.0\res
-com.example.stopwatch.app-debug-20 D:\Project\Flutter Project\PRODIGY_AD_03\android\app\src\debug\res
-com.example.stopwatch.app-main-21 D:\Project\Flutter Project\PRODIGY_AD_03\android\app\src\main\res
-com.example.stopwatch.app-pngs-22 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\generated\res\pngs\debug
-com.example.stopwatch.app-resValues-23 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\generated\res\resValues\debug
-com.example.stopwatch.app-rs-24 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\generated\res\rs\debug
-com.example.stopwatch.app-mergeDebugResources-25 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.example.stopwatch.app-mergeDebugResources-26 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.example.stopwatch.app-merged_res-27 D:\Project\Flutter Project\PRODIGY_AD_03\build\app\intermediates\merged_res\debug
+com.example.stopwatch.app-debug-20 D:\Project\Flutter Project\Stopwatch-app\android\app\src\debug\res
+com.example.stopwatch.app-main-21 D:\Project\Flutter Project\Stopwatch-app\android\app\src\main\res
+com.example.stopwatch.app-pngs-22 D:\Project\Flutter Project\Stopwatch-app\build\app\generated\res\pngs\debug
+com.example.stopwatch.app-resValues-23 D:\Project\Flutter Project\Stopwatch-app\build\app\generated\res\resValues\debug
+com.example.stopwatch.app-rs-24 D:\Project\Flutter Project\Stopwatch-app\build\app\generated\res\rs\debug
+com.example.stopwatch.app-mergeDebugResources-25 D:\Project\Flutter Project\Stopwatch-app\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.stopwatch.app-mergeDebugResources-26 D:\Project\Flutter Project\Stopwatch-app\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.stopwatch.app-merged_res-27 D:\Project\Flutter Project\Stopwatch-app\build\app\intermediates\merged_res\debug

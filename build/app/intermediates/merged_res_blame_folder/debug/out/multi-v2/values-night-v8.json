@@ -4,7 +4,7 @@
             "outputFile": "com.example.stopwatch.app-mergeDebugResources-25:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\Project\\Flutter Project\\PRODIGY_AD_03\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\Project\\Flutter Project\\Stopwatch-app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

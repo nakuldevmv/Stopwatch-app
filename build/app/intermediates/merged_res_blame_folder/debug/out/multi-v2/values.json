@@ -23,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nakul\\.gradle\\caches\\transforms-3\\72d73aa9f2b0d4a60d769cc82fe58f41\\transformed\\jetified-startup-runtime-1.1.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "82",
-                        "endOffsets": "133"
-                    },
-                    "to": {
-                        "startLines": "146",
-                        "startColumns": "4",
-                        "startOffsets": "7229",
-                        "endColumns": "82",
-                        "endOffsets": "7307"
-                    }
-                },
-                {
-                    "source": "D:\\Project\\Flutter Project\\PRODIGY_AD_03\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Project\\Flutter Project\\Stopwatch-app\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -56,6 +39,23 @@
                         "endLines": "158,161",
                         "endColumns": "12,12",
                         "endOffsets": "8070,8239"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\nakul\\.gradle\\caches\\transforms-3\\72d73aa9f2b0d4a60d769cc82fe58f41\\transformed\\jetified-startup-runtime-1.1.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "146",
+                        "startColumns": "4",
+                        "startOffsets": "7229",
+                        "endColumns": "82",
+                        "endOffsets": "7307"
                     }
                 },
                 {

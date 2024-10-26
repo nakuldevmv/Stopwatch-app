@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:stopwatch/webView/webViewContainer.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -70,77 +72,61 @@ class _StopwatchPageState extends State<StopwatchPage> {
 
   @override
   Widget build(BuildContext context) {
+    double isdeviceWidth = MediaQuery.of(context).size.width;
+
+    print(isdeviceWidth);
+    double isdeviceHeight = MediaQuery.of(context).size.height;
+    print(isdeviceHeight);
+
+    print(isdeviceWidth);
     return Scaffold(
-      appBar: AppBar(),
+      // appBar: AppBar(),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-                style: TextStyle(
-                    color: Color.fromARGB(255, 187, 187, 187),
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold),
-                "STOP WATCH"),
-            // const SizedBox(
-            //   height: 50,
-            // ),
-            Text(
-              _formatTime(_stopwatch.elapsedMilliseconds),
-              style: const TextStyle(
-                  color: Color.fromARGB(255, 170, 202, 199),
-                  fontSize: 50.0,
-                  fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 20.0),
-            Center(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 10.0),
-                      backgroundColor: _stopwatch.isRunning
-                          ? const Color.fromARGB(255, 216, 31, 18)
-                          : const Color.fromARGB(255, 72, 62, 62),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                    ),
-                    onPressed:
-                        _stopwatch.isRunning ? _stopStopwatch : _startStopwatch,
-                    child: Text(
-                        style: const TextStyle(
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 2.8,
-                            color: Color.fromARGB(255, 187, 187, 187),
-                            fontSize: 20),
-                        _stopwatch.isRunning ? ' STOP ' : 'START'),
-                  ),
-                  const SizedBox(width: 20.0),
-                  ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 10.0),
-                      backgroundColor: const Color.fromARGB(255, 72, 62, 62),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                    ),
-                    onPressed: _resetStopwatch,
-                    child: const Text(
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 3,
-                            color: Color.fromARGB(255, 187, 187, 187),
-                            fontSize: 20),
-                        "RESET"),
-                  ),
-                ],
+        child: WebView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              const Text(style: TextStyle(color: Color.fromARGB(255, 187, 187, 187), fontSize: 30, fontWeight: FontWeight.bold), "STOP WATCH"),
+              // const SizedBox(
+              //   height: 50,
+              // ),
+              Text(
+                _formatTime(_stopwatch.elapsedMilliseconds),
+                style: const TextStyle(color: Color.fromARGB(255, 170, 202, 199), fontSize: 50.0, fontWeight: FontWeight.bold),
               ),
-            ),
-          ],
+              const SizedBox(height: 20.0),
+              Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(horizontal: 50.0, vertical: 10.0),
+                        backgroundColor: _stopwatch.isRunning ? const Color.fromARGB(255, 216, 31, 18) : const Color.fromARGB(255, 72, 62, 62),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.0),
+                        ),
+                      ),
+                      onPressed: _stopwatch.isRunning ? _stopStopwatch : _startStopwatch,
+                      child: Text(style: const TextStyle(fontWeight: FontWeight.bold, letterSpacing: 2.8, color: Color.fromARGB(255, 187, 187, 187), fontSize: 20), _stopwatch.isRunning ? ' STOP ' : 'START'),
+                    ),
+                    const SizedBox(width: 20.0),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(horizontal: 50.0, vertical: 10.0),
+                        backgroundColor: const Color.fromARGB(255, 72, 62, 62),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.0),
+                        ),
+                      ),
+                      onPressed: _resetStopwatch,
+                      child: const Text(style: TextStyle(fontWeight: FontWeight.bold, letterSpacing: 3, color: Color.fromARGB(255, 187, 187, 187), fontSize: 20), "RESET"),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
